@@ -16,7 +16,7 @@ public class ClienteServiceImpl implements ClienteService {
 	@Autowired
 	RestTemplate template;
 
-	String url = "http://localhost:8080/api";
+	String url = "http://44.216.165.67:3014/api";
 
 	@Override
 	@Async
